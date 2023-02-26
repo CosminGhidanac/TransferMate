@@ -16,6 +16,7 @@ Steps:
 4.Check the "I'd like to hear about news and offers from TransferMate" checkbox.
 
 5.Click the "Open my free account" button.
+
 Expected Result: The user should be redirected to a confirmation page with a success message indicating that the registration was successful.
 
 **TestCase 2 : Invalid Mail Registration**
@@ -53,7 +54,7 @@ Steps:
 
 4.Check the "I'd like to hear about news and offers from TransferMate" checkbox.
 
-5Click the "Open my free account" button.
+5.Click the "Open my free account" button.
 
 Expected Result: An error message should be displayed indicating that the user must accept the Terms of Use and Privacy Policy, and the user should not be able to complete the registration process.
 
