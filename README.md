@@ -6,9 +6,13 @@ Verify that a user can successfully register with valid details.
 Steps:
 
 1.Launch the website and navigate to the registration page.
+
 2.Enter valid details in all fields on the registration form.
+
 3.Check the "I have read and agree with the Terms of Use and Privacy Policy" checkbox.
+
 4.Check the "I'd like to hear about news and offers from TransferMate" checkbox.
+
 5.Click the "Open my free account" button.
 Expected Result: The user should be redirected to a confirmation page with a success message indicating that the registration was successful.
 
@@ -17,10 +21,15 @@ Verify that a user cannot register with invalid email address.
 Steps:
 
 1.Launch the website and navigate to the registration page.
+
 2.Enter valid details in all fields on the registration form except for the email address field.
+
 3.Enter an invalid email address (e.g. "example").
+
 4.Check the "I have read and agree with the Terms of Use and Privacy Policy" checkbox.
+
 5.Check the "I'd like to hear about news and offers from TransferMate" checkbox.
+
 6.Click the "Open my free account" button.
 Expected Result: An error message should be displayed indicating that the email address is invalid, and the user should not be able to complete the registration process.
 
