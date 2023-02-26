@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-26T20:40:30 EET" name="Default suite" finished-at="2023-02-26T20:40:41 EET" duration-ms="10915">
+    <groups>
+    </groups>
+    <test started-at="2023-02-26T20:40:30 EET" name="Default test" finished-at="2023-02-26T20:40:41 EET" duration-ms="10915">
+      <class name="TransferMate.InvalidMailTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TransferMate.InvalidMailTest@6392827e]" started-at="2023-02-26T20:40:30 EET" name="setup" finished-at="2023-02-26T20:40:37 EET" duration-ms="6412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidMailRegistration()[pri:0, instance:TransferMate.InvalidMailTest@6392827e]" started-at="2023-02-26T20:40:37 EET" name="invalidMailRegistration" finished-at="2023-02-26T20:40:37 EET" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMailRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TransferMate.InvalidMailTest@6392827e]" started-at="2023-02-26T20:40:37 EET" name="tearDown" finished-at="2023-02-26T20:40:41 EET" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TransferMate.InvalidMailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

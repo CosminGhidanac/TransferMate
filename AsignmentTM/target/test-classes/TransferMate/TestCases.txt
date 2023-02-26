@@ -1,0 +1,47 @@
+TestCase 1 : Succesful Registration
+Verify that a user can successfully register with valid details.
+Steps:
+
+1.Launch the website and navigate to the registration page.
+2.Enter valid details in all fields on the registration form.
+3.Check the "I have read and agree with the Terms of Use and Privacy Policy" checkbox.
+4.Check the "I'd like to hear about news and offers from TransferMate" checkbox.
+5.Click the "Open my free account" button.
+Expected Result: The user should be redirected to a confirmation page with a success message indicating that the registration was successful.
+
+TestCase 2 : Invalid Mail Registration
+Verify that a user cannot register with invalid email address.
+Steps:
+
+1.Launch the website and navigate to the registration page.
+2.Enter valid details in all fields on the registration form except for the email address field.
+3.Enter an invalid email address (e.g. "example").
+4.Check the "I have read and agree with the Terms of Use and Privacy Policy" checkbox.
+5.Check the "I'd like to hear about news and offers from TransferMate" checkbox.
+6.Click the "Open my free account" button.
+Expected Result: An error message should be displayed indicating that the email address is invalid, and the user should not be able to complete the registration process.
+
+
+TestCase 3 : Accept Terms Registration
+Verify that a user cannot register without accepting the Terms of Use and Privacy Policy.
+Steps:
+
+1.Launch the website and navigate to the registration page.
+2.Enter valid details in all fields on the registration form.
+3.Leave the "I have read and agree with the Terms of Use and Privacy Policy" checkbox unchecked.
+4.Check the "I'd like to hear about news and offers from TransferMate" checkbox.
+5Click the "Open my free account" button.
+Expected Result: An error message should be displayed indicating that the user must accept the Terms of Use and Privacy Policy, and the user should not be able to complete the registration process.
+
+TestCase 4: Invalid Phone Registration
+Verify that a user cannot register with a phone number that is not in the selected country.
+Steps:
+
+1.Launch the website and navigate to the registration page.
+2.Enter valid details in all fields on the registration form.
+3.Select a country from the list that is different from the "+40 Romania" option.
+4.Enter a valid phone number for the selected country.
+5.Check the "I have read and agree with the Terms of Use and Privacy Policy" checkbox.
+6.Check the "I'd like to hear about news and offers from TransferMate" checkbox.
+7.Click the "Open my free account" button.
+Expected Result: An error message should be displayed indicating that the phone number is not valid for the selected country, and the user should not be able to complete the registration process.
