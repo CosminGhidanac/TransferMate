@@ -1,5 +1,6 @@
 # TransferMate
 TransferMate Automation Test
+
 TestCase 1 : Succesful Registration
 Verify that a user can successfully register with valid details.
 Steps:
