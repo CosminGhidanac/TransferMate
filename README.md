@@ -1,7 +1,7 @@
 # TransferMate
 TransferMate Automation Test
 
-TestCase 1 : Succesful Registration
+**TestCase 1 : Succesful Registration**
 
 Verify that a user can successfully register with valid details.
 
@@ -18,9 +18,10 @@ Steps:
 5.Click the "Open my free account" button.
 Expected Result: The user should be redirected to a confirmation page with a success message indicating that the registration was successful.
 
-TestCase 2 : Invalid Mail Registration
+**TestCase 2 : Invalid Mail Registration**
 
 Verify that a user cannot register with invalid email address.
+
 Steps:
 
 1.Launch the website and navigate to the registration page.
@@ -38,7 +39,7 @@ Steps:
 Expected Result: An error message should be displayed indicating that the email address is invalid, and the user should not be able to complete the registration process.
 
 
-TestCase 3 : Accept Terms Registration
+**TestCase 3 : Accept Terms Registration**
 
 Verify that a user cannot register without accepting the Terms of Use and Privacy Policy.
 
@@ -56,7 +57,7 @@ Steps:
 
 Expected Result: An error message should be displayed indicating that the user must accept the Terms of Use and Privacy Policy, and the user should not be able to complete the registration process.
 
-TestCase 4: Invalid Phone Registration
+**TestCase 4: Invalid Phone Registration**
 
 Verify that a user cannot register with a phone number that is not in the selected country.
 
